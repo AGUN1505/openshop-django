@@ -15,3 +15,4 @@ class Product(models.Model):
     stock = models.IntegerField()
     is_available = models.BooleanField()
     picture = models.CharField(max_length=500)
+    is_delete = models.BooleanField(default=False)
